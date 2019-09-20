@@ -6,7 +6,7 @@ x_values = list(range(1, 1001))
 # List comprehension generates y-values
 y_values = [x**2 for x in x_values]
 
-plt.scatter(x_values, y_values, s=40)
+plt.scatter(x_values, y_values, c='red', edgecolor='none', s=40)
 
 # Set chart title and label axes.
 plt.title("Square Numbers", fontsize=24)
