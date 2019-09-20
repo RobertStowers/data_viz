@@ -27,5 +27,10 @@ plt.tick_params(axis='both', which='major', labelsize=14)
 # Set the range for each axis.
 plt.axis([0, 1100, 0, 1100000])
 
-plt.show()
+# # Can show the plot
+# plt.show()
+
+# Or can save the plot as a figure automatically
+# Saves in the same directory as py script, and 'tight' option trims extra whitespace
+plt.savefig('squares_plot.png', bbox_inches='tight')
 
